@@ -1,0 +1,38 @@
+@charset "utf-8";
+.left table {
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.left table tr {
+	padding-bottom: 10px;
+}
+.content {
+	background-image: url(picture/2011121121505659.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 550px;
+	background-color: #E8E1CF;
+}
+.content .left .center {
+	float: right;
+	width: 700px;
+	height: 280px;
+}
+#apDiv15 h2 {
+	font-size: 24px;
+	color: #96F;
+}
+.footer {
+	color: #F6F;
+	text-align: center;
+	width: 1000px;
+	font-family: "楷体";
+	font-size: 18px;
+}
+.word {
+	color: #F00;
+	font-family: "隶书";
+	font-size: 24px;
+}

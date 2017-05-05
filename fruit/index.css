@@ -1,0 +1,125 @@
+@charset "utf-8";
+.container {
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	color: #6FF;
+}
+.content {
+	color: #FFF1DA;
+	width: 990px;
+}
+
+
+.banner {
+	width: 1000px;
+}
+
+
+.container .links {
+	padding: 0px;
+	position: relative;
+	margin-top: -30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "华文新魏";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #96C;
+	text-decoration: none;
+}
+.container .links ul {
+	margin: 0px;
+	padding: 0px;
+	width: 990px;
+	list-style-type: none;
+}
+.container .links ul li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 150px;
+	text-align: center;
+	word-spacing: 0em;
+	text-decoration: none;
+}
+#con {
+	color: #F9F;
+	height: 400px;
+	width: 995px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	text-decoration: none;
+}
+#con #right {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 800px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+}
+.footer {
+	color: #F6F;
+	text-align: center;
+	width: 1000px;
+	font-family: "楷体";
+	font-size: 18px;
+}
+
+
+#con #left {
+	float: left;
+	width: 193px;
+	text-align: center;
+	position: relative;
+	height: 376px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #99F;
+}
+
+
+#con #left ul li {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666;
+}
+
+#con #left ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.content #con #left ul li a {
+	color: #066;
+	font-weight: bolder;
+	font-family: "隶书";
+	font-size: 24px;
+}
+
+#con #left ul li a {
+	text-decoration: none;
+	color: #333;
+}
+
+</style>

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+
+<link href="index.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	left: 934px;
+	top: 46px;
+	width: 79px;
+	height: 34px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 1034px;
+	top: 13px;
+	width: 80px;
+	height: 24px;
+	z-index: 2;
+}
+#apDiv3 {
+	position: absolute;
+	left: 946px;
+	top: 12px;
+	width: 76px;
+	height: 24px;
+	z-index: 3;
+}
+#apDiv4 {
+	position: absolute;
+	left: 258px;
+	top: 38px;
+	width: 299px;
+	height: 196px;
+	z-index: 4;
+}
+#apDiv5 {
+	position: absolute;
+	left: 27px;
+	top: 233px;
+	width: 106px;
+	height: 14px;
+	z-index: 5;
+}
+a:link {
+	text-decoration: none;
+	color: #96C;
+}
+a:visited {
+	text-decoration: none;
+	color: #66F;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<script language="javascript">
+function Chang(n)
+{
+	var pic=document.getElementById("right");
+	pic.innerHTML="<img src='picture/"+n+".jpg' width='800' height='376' />";
+}
+</script>
+</head>
+
+<body>
+<div id="apDiv4"><img src="picture/动态logo.gif" width="321" height="157" /></div>
+<div class="container">
+<div class="banner" data-wow-delay="0.4s"><img src="picture/banner.png" width="1000" height="200" /></div>
+    <div class="links"><ul>
+			<li class="links"><a href="index.html">首页</a></li>
+			<li class="links"><a href="common sense.html" class="links">水果常识</a></li>
+			<li class="links"><a href="season fruit.html" class="links">应季水果</a></li>
+	  <li class="links" ><a href="dish.html">水果美食</a></li>
+			<li class="links"><a href="about us.html">关于我们</a></li>
+			<li class="links"><a href="#">留言板</a></li>
+		</ul>
+</div>
+<div class="content">
+<div id="con">
+<div id="right"><img src="picture/1.jpg" width="800" height="376" /></div>
+    <div id="left" >
+    <ul><li>      <a href="#" onmouseover="Chang(1)">车厘子</a>    </li>
+    <li> <font color: #6FF;><a href="#" class="page" onmouseover="Chang(2)">荔枝</a></li>
+    <li><a href="#" onmouseover="Chang(3)">西瓜</a></li>
+    <li><a href="#" onmouseover="Chang(4)">火龙果</a></li>
+    <li><a href="#" onmouseover="Chang(5)">树莓</a></li>
+    <li><a href="#" onmouseover="Chang(6)">蓝莓</a></li>
+    </ul>
+    
+  </div>
+  </div>
+</div>
+<div class="footer"> 本版权归果乐果香团队所有</div>
+</body>
+</html>

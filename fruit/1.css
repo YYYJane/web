@@ -1,0 +1,113 @@
+@charset "utf-8";
+.container {
+	width: 1000px;
+	text-align: left;
+	vertical-align: text-bottom;
+	background-color: #FFFFFF;
+	background-image: url(picture/banner.png);
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+.container .left {
+	float: left;
+	height: 700px;
+	width: 200px;
+	background-repeat: no-repeat;
+}
+.container .content {
+	marqin: 30px;
+	height: 680px;
+	width: 760px;
+	float: right;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-family: "黑体";
+	border-top-width: 30px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	letter-spacing: 2px;
+	word-spacing: 0px;
+	vertical-align: 0%;
+	background-repeat: no-repeat;
+	background-color: #B99767;
+	background-image: url(picture/%E6%9C%AA%E5%91%BD%E5%90%8D-1.fw.png);
+	color: #C36;
+	margin: 0px;
+	top: 30px;
+	position: static;
+}
+#apDiv1 {
+	text-align: center;
+	font-family: "幼圆";
+	font-size: 36px;
+	font-weight: bolder;
+	color: #3D563D;
+}
+
+
+.container .footer {
+	text-align: center;
+	clear: none;
+	float: none;
+	list-style-type: none;
+	height: 0px;
+	font-family: "楷体";
+	font-size: 18px;
+	color: #FD5B4E;
+	position: relative;
+}
+
+
+
+.container .banner {
+	width: 1000px;
+	background-image: url(picture/24.fw.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 230px;
+	position: static;
+}
+.container .links {
+	padding: 0px;
+	margin-top: -30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: "华文新魏";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #96C;
+	float: none;
+	position: relative;
+	border-top-width: -30px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.container .links ul {
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+	list-style-type: none;
+}
+.container .links ul li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 150px;
+	text-align: center;
+	word-spacing: 0em;
+	display: block;
+}
+.container .content h2 {
+	color: #960;
+}
